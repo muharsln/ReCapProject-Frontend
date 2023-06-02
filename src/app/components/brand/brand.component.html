@@ -1,0 +1,15 @@
+<div class="card text-bg-primary">Brand</div>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Markanın Adı</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let brand of brands">
+            <td>{{brand.id}}</td>
+            <td>{{brand.name}}</td>
+        </tr>
+    </tbody>
+</table>

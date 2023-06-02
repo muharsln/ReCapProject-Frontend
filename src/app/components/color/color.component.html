@@ -1,0 +1,15 @@
+<div class="card text-bg-primary">Color</div>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let color of colors">
+            <td>{{color.id}}</td>
+            <td>{{color.name}}</td>
+        </tr>
+    </tbody>
+</table>
